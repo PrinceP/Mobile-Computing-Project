@@ -1,17 +1,16 @@
 import cv2
 import numpy as np
-from matplotlib import pyplot as plt 
+from imutils import paths
+import argparse
+import os
 
-img = cv2.imread('images00472.png',1)
+ap = argparse.ArgumentParser()
+ap.add_argument("-i", "--image", required=True,help="image file")
+args = vars(ap.parse_args())
 
-'''
-edges = cv2.Canny(img,100,200) 
-plt.subplot(121),plt.imshow(img,cmap = 'gray')
-plt.title('Original Image'), plt.xticks([]), plt.yticks([])
-plt.subplot(122),plt.imshow(edges,cmap = 'gray')
-plt.title('Edge Image'), plt.xticks([]), plt.yticks([]) 
-plt.show()
-'''
+
+img = cv2.imread(args['image'],1)
+
 
 gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 ret, thresh = cv2.threshold(gray,0,255,cv2.THRESH_BINARY_INV+cv2.THRESH_OTSU)
@@ -36,5 +35,3 @@ img[markers == -1] = [255,0,0]
 
 cv2.imshow('image',img)
 cv2.waitKey(0)
-
-

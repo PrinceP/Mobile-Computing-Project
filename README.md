@@ -31,13 +31,24 @@ usage
 Tutorial 
   http://www.pyimagesearch.com/2015/09/07/blur-detection-with-opencv/
 
-In Progress 
 
-#3: Watershed algorithm 
+#3: Ground plane detection
 usage
 	
-	python groundplane_detection.py
+	python groundplane_detection.py --image GroundPlane/images00495.png
 
 Tutorial 
   http://docs.opencv.org/3.1.0/d3/db4/tutorial_py_watershed.html
 
+#4: Superpixels 
+usage
+      
+      python super_pixel.py --image GroundPlane/images00495.png --pixels 400
+
+
+      --image image file
+      --pixels number of segments
+
+Tutorial
+
+http://www.pyimagesearch.com/2014/07/28/a-slic-superpixel-tutorial-using-python/
