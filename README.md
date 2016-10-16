@@ -57,6 +57,6 @@ Tutorial
 http://www.pyimagesearch.com/2014/07/28/a-slic-superpixel-tutorial-using-python/
 
 ![alt text](Screenshots/images00495.png "Description goes here")
-![alt text](Screenshots/GP1.png "Description goes here")
+![alt text](Screenshots/superpixels_400_segments.png "Description goes here")
 
 
