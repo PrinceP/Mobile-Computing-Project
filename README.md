@@ -40,8 +40,8 @@ usage
 Tutorial 
   http://docs.opencv.org/3.1.0/d3/db4/tutorial_py_watershed.html
 
-![alt tag](https://raw.githubusercontent.com/PrinceP/Mobile-Computing-Project/master/images00495.png)
-![alt tag](https://raw.githubusercontent.com/PrinceP/Mobile-Computing-Project/master/GP1.png)
+![alt text](Screenshots/images00495.png "Description goes here")
+![alt text](Screenshots/GP1.png "Description goes here")
 
 #4: Superpixels 
 usage
@@ -56,6 +56,7 @@ Tutorial
 
 http://www.pyimagesearch.com/2014/07/28/a-slic-superpixel-tutorial-using-python/
 
-![alt tag](https://raw.githubusercontent.com/PrinceP/Mobile-Computing-Project/master/images00495.png)
-![alt tag](https://raw.githubusercontent.com/PrinceP/Mobile-Computing-Project/master/superpixels_400_segments.png)
+![alt text](Screenshots/images00495.png "Description goes here")
+![alt text](Screenshots/GP1.png "Description goes here")
+
 
