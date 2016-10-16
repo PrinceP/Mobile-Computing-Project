@@ -6,6 +6,10 @@ frame_generation.py
 usage \n
 
       python frame_generation.py --input sample_vid.mp4 --output sample_frame --frames .1
+      
+      --input full path to video
+      --output folder where frames will be stored
+      --frames fps in float format only.
 
 It will create a folder of given output, based on the frame per sec argument. Default fps is 1.
 Needed software - ffmpeg
