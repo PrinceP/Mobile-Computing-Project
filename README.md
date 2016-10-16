@@ -3,7 +3,7 @@
 #1: Convert the given video to frames 
 
 frame_generation.py
-usage \n
+usage
 
       python frame_generation.py --input sample_vid.mp4 --output sample_frame --frames .1
       
@@ -12,10 +12,11 @@ usage \n
       --frames fps in float format only.
 
 It will create a folder of given output, based on the frame per sec argument. Default fps is 1.
-Needed software - ffmpeg
+
+Required - ffmpeg
 https://www.ffmpeg.org/
 
-#2: Images blur removals
+#2: Removal of blurred images
 
 image_blur.py
 
