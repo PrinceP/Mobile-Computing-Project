@@ -1,9 +1,13 @@
 # Mobile-Computing-Project
 
 opencv 3.1.0
+
 python 2.7
+
 numpy
+
 sciket
+
 ffmpeg
 
 
