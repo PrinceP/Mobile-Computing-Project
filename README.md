@@ -40,6 +40,9 @@ usage
 Tutorial 
   http://docs.opencv.org/3.1.0/d3/db4/tutorial_py_watershed.html
 
+![Alt text](Mobile-Computing-Project/images00495.png?raw=true "Original")
+![Alt text](Mobile-Computing-Project/GP1.png?raw=true "Segmentation")
+
 #4: Superpixels 
 usage
       
@@ -52,3 +55,7 @@ usage
 Tutorial
 
 http://www.pyimagesearch.com/2014/07/28/a-slic-superpixel-tutorial-using-python/
+
+![Alt text](Mobile-Computing-Project/images00495.png?raw=true "Original")
+![Alt text](Mobile-Computing-Project/superpixels_400_segments.png?raw=true "SLIC superpixels")
+
