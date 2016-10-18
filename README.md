@@ -46,7 +46,9 @@ Tutorial
 #3: Ground plane detection
 usage
 	
-	python groundplane_detection.py --image GroundPlane/images00495.png
+	python groundplane_detection.py --image GroundPlane/images00495.png --out Screenshots/GP1
+  --image input image
+  --out output name for image file
 
 Tutorial 
   http://docs.opencv.org/3.1.0/d3/db4/tutorial_py_watershed.html
